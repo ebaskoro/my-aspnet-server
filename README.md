@@ -2,6 +2,9 @@
 
 [![license](https://img.shields.io/github/license/ebaskoro/my-aspnet-server.svg?style=plastic)]()
 [![AppVeyor](https://img.shields.io/appveyor/ci/ebaskoro/my-aspnet-server.svg?style=plastic)](https://ci.appveyor.com/project/ebaskoro/my-aspnet-server)
+[![Docker Automated Build](https://img.shields.io/docker/automated/ebaskoro/my-aspnet-server.svg?style=plastic)]()
+
+[![nodesource/node](http://dockeri.co/image/ebaskoro/my-aspnet-server)](https://hub.docker.com/r/ebaskoro/my-aspnet-server/)
 
 A sample of ASP.NET Core application server with xUnit tests.
 

@@ -16,8 +16,8 @@ build_script:
   - cmd: dotnet build src\Web
 
 test_script:
-- cmd: dotnet build test\Web.Tests
-- cmd: dotnet test test\Web.Tests
+  - cmd: dotnet build test\Web.Tests
+  - cmd: dotnet test test\Web.Tests
 
 notifications:
   - provider: Webhook
