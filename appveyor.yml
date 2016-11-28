@@ -1,0 +1,30 @@
+#
+# appveyor.yml
+#
+#
+
+version: 0.0.1.{build}
+
+branches:
+  only:
+    - master
+
+image: Visual Studio 2015
+
+build_script:
+  - cmd: >-
+    dotnet restore
+    dotnet build src\Web
+
+test_script:
+  - cmd: >-
+    dotnet build test\Web.Tests
+    dotnet test test\Web.Tests
+
+notifications:
+  - provider: Webhook
+    url: https://webhooks.gitter.im/e/ada58954716eeddb1887
+    method: POST
+    on_build_success: true
+    on_build_failure: true
+    on_build_status_changed: true
