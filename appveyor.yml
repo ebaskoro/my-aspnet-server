@@ -12,16 +12,16 @@ branches:
 image: Visual Studio 2015
 
 build_script:
-  - cmd: >-
-    dotnet restore
-
-    dotnet build src\Web
+- cmd: >-
+  dotnet restore
+  
+  dotnet build src\Web
 
 test_script:
-  - cmd: >-
-    dotnet build test\Web.Tests
-    
-    dotnet test test\Web.Tests
+- cmd: >-
+  dotnet build test\Web.Tests
+  
+  dotnet test test\Web.Tests
 
 notifications:
   - provider: Webhook
