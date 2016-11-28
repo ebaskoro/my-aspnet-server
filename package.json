@@ -1,0 +1,22 @@
+{
+  "name": "my-aspnet-server",
+  "version": "0.0.1",
+  "description": "My application server based on ASP.NET Core",
+  "main": "Program.cs",
+  "scripts": {
+    "test": "dotnet test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ebaskoro/my-aspnet-server.git"
+  },
+  "keywords": [
+    "ASP.NET"
+  ],
+  "author": "Eki Baskoro <eki@baskoro.org>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ebaskoro/my-aspnet-server/issues"
+  },
+  "homepage": "https://github.com/ebaskoro/my-aspnet-server#readme"
+}

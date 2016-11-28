@@ -1,0 +1,30 @@
+{
+    "version": "0.1.0",
+    "command": "dotnet",
+    "isShellCommand": true,
+    "args": [],
+    "tasks": [
+        {
+            "taskName": "build",
+            "args": [
+                "src/Web/project.json",
+                "test/Web.Tests/project.json"
+            ],
+            "isBuildCommand": true,
+            "problemMatcher": "$msCompile"
+        },
+        {
+            "taskName": "test",
+            "args": [
+                "test/Web.Tests"
+            ],
+            "isTestCommand": true
+        },
+        {
+            "taskName": "run",
+            "args": [
+                "src/Web"
+            ]
+        }
+    ]
+}

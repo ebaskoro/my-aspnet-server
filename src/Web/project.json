@@ -1,0 +1,46 @@
+{
+
+  "title": "My ASP.NET Core application server",
+  "description": "A sample of ASP.NET Core application server with xUnit tests.",
+  "authors": [
+    "Eki Baskoro <eki@baskoro.org>"
+  ],
+  "version": "0.0.1",
+  
+  "dependencies": {
+    "Microsoft.NETCore.App": {
+      "version": "1.1.0",
+      "type": "platform"
+    },
+    "Microsoft.AspNetCore.Diagnostics": "1.1.0",
+    "Microsoft.AspNetCore.Mvc": "1.1.0",
+    "Microsoft.AspNetCore.Routing": "1.1.0",
+    "Microsoft.AspNetCore.Server.Kestrel": "1.1.0",
+    "Microsoft.Extensions.Logging.Console": "1.1.0"
+  },
+  
+  "frameworks": {
+    "netcoreapp1.1": {
+      "imports": [
+        "dotnet5.6",
+        "portable-net45+win8"
+      ]
+    }
+  },
+
+  "buildOptions": {
+    "emitEntryPoint": true,
+    "preserveCompilationContext": true
+  },
+
+  "publishOptions": {
+    "include": [
+      "web.config"
+    ]
+  },
+  
+  "tooling": {
+    "defaultNamespace": "Web"
+  }
+
+}

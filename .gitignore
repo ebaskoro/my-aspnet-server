@@ -1,0 +1,14 @@
+#
+# .gitignore
+#
+#
+
+# Node.js
+node_modules
+
+# .NET Core
+project.lock.json
+
+# Build results
+[Oo]bj/
+[Bb]in/
