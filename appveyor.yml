@@ -26,3 +26,6 @@ notifications:
     on_build_success: true
     on_build_failure: true
     on_build_status_changed: true
+
+  - provider: Slack
+    incoming_webhook: https://hooks.slack.com/services/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
